@@ -20,4 +20,10 @@
 
 4. ``cd ..`` go back into the root folder.
 
-5. ``npm run dev`` concurrently run backend and frontend apps.
+5. Add .env to the root folder:
+```
+PORT=3000
+MONGO_URL=mongodb+srv://admin:123456ad@cluster0.6fwe8.mongodb.net/t-dashboard?retryWrites=true&w=majority
+JWT_SECRET=wer+234+_aU{23w/w]fkc
+```
+6``npm run dev`` concurrently run backend and frontend apps.
